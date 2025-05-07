@@ -13,7 +13,9 @@
 <p>Color Code: <%= @hex_color %></p>
 
 <% # Button to generate new color in HTML %>
-button id="new-color-btn">Generate New Color</button>
+<form method="get" action="/">
+  <button type="submit">Generate New Color</button>
+</form>
 
 <% # Javascript to make new color generator button work - write method needed to route to controller (color_ranker_webpage.rb) %>
 
