@@ -11,8 +11,4 @@ get '/' do
 end
 
 # Route to return new random color when button is clicked
-get '/new_color' do
-    content_type :json
-    { hex_color: generate_random_hex_color }.to_json
-end
 
