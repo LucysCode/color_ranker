@@ -1,7 +1,24 @@
+# embedded ruby file with HTML, allowing for the display of dynamic content
+
+# greeting
 <h1>Welcome to Color Ranker where you can rank ugly colors!</h1>
 
+# Prompt
 <h1>Is this color ugly?</h1>
 
+# Color box
 <div style="width: 200px; height: 200px; background-color: <%= @hex_color %>; border: 1px solid black;"></div>
 
+# Hex code
 <p>Color Code: <%= @hex_color %></p>
+
+# Button to generate new color in HTML
+button id="new-color-btn">Generate New Color</button>
+
+# Javascript to make new color generator button work - write method needed to route to controller (color_ranker_webpage.rb)
+
+    # Write route in color_ranker_webpage.rb
+
+# Button for "Ugly"
+
+# Button for "Not Ugly"
