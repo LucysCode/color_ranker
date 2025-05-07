@@ -1,2 +1,2 @@
-require 'color_ranker_webpage.rb'
+require './color_ranker_webpage'
 run Sinatra::Application
