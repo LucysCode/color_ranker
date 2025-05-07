@@ -1,0 +1,1 @@
+puts "Rank ugly colors!"
